@@ -1,58 +1,26 @@
 // ==UserScript==
-// @name     JVParallele local
-// @namespace http://localhost/410api/
-// @version  0.42004
-// @grant    GM_xmlhttpRequest
-// @grant    GM.xmlHttpRequest
-// @connect  localhost
-// @match        http://www.jeuxvideo.com/forums/*
-// @match        http://www.jeuxvideo.com/recherche/forums/*
-// @icon         http://localhost/410api/icone.png
-// @downloadURL  https://jvparallele.fr/script.user.js
-// @updateURL    https://jvparallele.fr/script.user.js
-// // www.jeuxvideo.com/login
-// @run-at document-start
-
-// ==/UserScript==
-
-
-/*
-// fix webedia :
-mis des ppp au lieu des jvp et des n4
-*/
-
-const NO_VERSION = "0.42004";
-const urlServ = "http://localhost/410api";    // sans "/" final
-const imgAvatarDefaut = 'http://image.jeuxvideo.com/avatar-sm/default.jpg';
-const POSTS_PAR_PAGE = 20;
-const TOPICS_PAR_PAGE = 25;
-
-
-
-/*
-
-// ==UserScript==
 // @name     JVParallele
 // @namespace https://jvparallele.fr
-// @version  0.42002
+// @version  0.42005
 // @grant    GM_xmlhttpRequest
 // @grant    GM.xmlHttpRequest
 // @connect  jvparallele.fr
 // @match        http://www.jeuxvideo.com/forums/*
 // @match        http://www.jeuxvideo.com/recherche/forums/*
 // @icon         https://jvparallele.fr/icone.png
+// @downloadURL  https://jvparallele.fr/jvpfixed.user.js
+// @updateURL    https://jvparallele.fr/jvpfixed.user.js
 // // www.jeuxvideo.com/login
 // @run-at document-start
+// @license MIT
 // ==/UserScript==
 
 
-const NO_VERSION = "0.42002";
+const NO_VERSION = "0.42005";
 const urlServ = "https://jvparallele.fr";    // sans "/" final
 const imgAvatarDefaut = 'http://image.jeuxvideo.com/avatar-sm/default.jpg';
 const POSTS_PAR_PAGE = 20;
 const TOPICS_PAR_PAGE = 25;
-
-*/
 
 
 const IMG_LIGHTNING = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvUlEQVQ4jaWRoQoCQRRFDwYRMU0yiojI4ieYNix+hl/gT/gBBpNZDGL0O2STwWQ2iBhEDHINzsIyMOyMO3DbnHt474HnCYaCp+BVykPQ9zFuwVYgJ8tQeCT4OPBNYOrY53XsZ0Gzjv0qyAVHwSDWXs6qyt4SGJuJU3YRdILGsGU7x57FwGPHfhD0bNohBXvPDjaV1xA0BJlgas9XwAsFz/ArSiz4Fsxi2KJgLbgL0n9gIzgJkmjYFqSCbsjfL/pnqVpMp6kJAAAAAElFTkSuQmCC";
